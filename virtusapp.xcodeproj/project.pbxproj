@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531103FC1F578B8E008AECFB /* AppDelegate.swift */; };
+		531103FF1F578B8E008AECFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531103FE1F578B8E008AECFB /* ViewController.swift */; };
+		531104021F578B8E008AECFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531104001F578B8E008AECFB /* Main.storyboard */; };
+		531104041F578B8E008AECFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531104031F578B8E008AECFB /* Assets.xcassets */; };
+		531104071F578B8E008AECFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531104051F578B8E008AECFB /* LaunchScreen.storyboard */; };
+		531104121F578B8E008AECFB /* virtusappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104111F578B8E008AECFB /* virtusappTests.swift */; };
+		5311041D1F578B8E008AECFB /* virtusappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311041C1F578B8E008AECFB /* virtusappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5311040E1F578B8E008AECFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531103F11F578B8E008AECFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531103F81F578B8E008AECFB;
+			remoteInfo = virtusapp;
+		};
+		531104191F578B8E008AECFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531103F11F578B8E008AECFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531103F81F578B8E008AECFB;
+			remoteInfo = virtusapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		531103F91F578B8E008AECFB /* virtusapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtusapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		531103FC1F578B8E008AECFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		531103FE1F578B8E008AECFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		531104011F578B8E008AECFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		531104031F578B8E008AECFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531104061F578B8E008AECFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		531104081F578B8E008AECFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5311040D1F578B8E008AECFB /* virtusappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virtusappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		531104111F578B8E008AECFB /* virtusappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtusappTests.swift; sourceTree = "<group>"; };
+		531104131F578B8E008AECFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531104181F578B8E008AECFB /* virtusappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virtusappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5311041C1F578B8E008AECFB /* virtusappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtusappUITests.swift; sourceTree = "<group>"; };
+		5311041E1F578B8E008AECFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531103F61F578B8E008AECFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5311040A1F578B8E008AECFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531104151F578B8E008AECFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531103F01F578B8E008AECFB = {
+			isa = PBXGroup;
+			children = (
+				531103FB1F578B8E008AECFB /* virtusapp */,
+				531104101F578B8E008AECFB /* virtusappTests */,
+				5311041B1F578B8E008AECFB /* virtusappUITests */,
+				531103FA1F578B8E008AECFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531103FA1F578B8E008AECFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531103F91F578B8E008AECFB /* virtusapp.app */,
+				5311040D1F578B8E008AECFB /* virtusappTests.xctest */,
+				531104181F578B8E008AECFB /* virtusappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		531103FB1F578B8E008AECFB /* virtusapp */ = {
+			isa = PBXGroup;
+			children = (
+				531103FC1F578B8E008AECFB /* AppDelegate.swift */,
+				531103FE1F578B8E008AECFB /* ViewController.swift */,
+				531104001F578B8E008AECFB /* Main.storyboard */,
+				531104031F578B8E008AECFB /* Assets.xcassets */,
+				531104051F578B8E008AECFB /* LaunchScreen.storyboard */,
+				531104081F578B8E008AECFB /* Info.plist */,
+			);
+			path = virtusapp;
+			sourceTree = "<group>";
+		};
+		531104101F578B8E008AECFB /* virtusappTests */ = {
+			isa = PBXGroup;
+			children = (
+				531104111F578B8E008AECFB /* virtusappTests.swift */,
+				531104131F578B8E008AECFB /* Info.plist */,
+			);
+			path = virtusappTests;
+			sourceTree = "<group>";
+		};
+		5311041B1F578B8E008AECFB /* virtusappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5311041C1F578B8E008AECFB /* virtusappUITests.swift */,
+				5311041E1F578B8E008AECFB /* Info.plist */,
+			);
+			path = virtusappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531103F81F578B8E008AECFB /* virtusapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531104211F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusapp" */;
+			buildPhases = (
+				531103F51F578B8E008AECFB /* Sources */,
+				531103F61F578B8E008AECFB /* Frameworks */,
+				531103F71F578B8E008AECFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = virtusapp;
+			productName = virtusapp;
+			productReference = 531103F91F578B8E008AECFB /* virtusapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5311040C1F578B8E008AECFB /* virtusappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531104241F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappTests" */;
+			buildPhases = (
+				531104091F578B8E008AECFB /* Sources */,
+				5311040A1F578B8E008AECFB /* Frameworks */,
+				5311040B1F578B8E008AECFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5311040F1F578B8E008AECFB /* PBXTargetDependency */,
+			);
+			name = virtusappTests;
+			productName = virtusappTests;
+			productReference = 5311040D1F578B8E008AECFB /* virtusappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		531104171F578B8E008AECFB /* virtusappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531104271F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappUITests" */;
+			buildPhases = (
+				531104141F578B8E008AECFB /* Sources */,
+				531104151F578B8E008AECFB /* Frameworks */,
+				531104161F578B8E008AECFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5311041A1F578B8E008AECFB /* PBXTargetDependency */,
+			);
+			name = virtusappUITests;
+			productName = virtusappUITests;
+			productReference = 531104181F578B8E008AECFB /* virtusappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531103F11F578B8E008AECFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Rafael;
+				TargetAttributes = {
+					531103F81F578B8E008AECFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5311040C1F578B8E008AECFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 531103F81F578B8E008AECFB;
+					};
+					531104171F578B8E008AECFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 531103F81F578B8E008AECFB;
+					};
+				};
+			};
+			buildConfigurationList = 531103F41F578B8E008AECFB /* Build configuration list for PBXProject "virtusapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 531103F01F578B8E008AECFB;
+			productRefGroup = 531103FA1F578B8E008AECFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531103F81F578B8E008AECFB /* virtusapp */,
+				5311040C1F578B8E008AECFB /* virtusappTests */,
+				531104171F578B8E008AECFB /* virtusappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531103F71F578B8E008AECFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531104071F578B8E008AECFB /* LaunchScreen.storyboard in Resources */,
+				531104041F578B8E008AECFB /* Assets.xcassets in Resources */,
+				531104021F578B8E008AECFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5311040B1F578B8E008AECFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531104161F578B8E008AECFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531103F51F578B8E008AECFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531103FF1F578B8E008AECFB /* ViewController.swift in Sources */,
+				531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531104091F578B8E008AECFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531104121F578B8E008AECFB /* virtusappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531104141F578B8E008AECFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5311041D1F578B8E008AECFB /* virtusappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5311040F1F578B8E008AECFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531103F81F578B8E008AECFB /* virtusapp */;
+			targetProxy = 5311040E1F578B8E008AECFB /* PBXContainerItemProxy */;
+		};
+		5311041A1F578B8E008AECFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531103F81F578B8E008AECFB /* virtusapp */;
+			targetProxy = 531104191F578B8E008AECFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		531104001F578B8E008AECFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531104011F578B8E008AECFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		531104051F578B8E008AECFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				531104061F578B8E008AECFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5311041F1F578B8E008AECFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		531104201F578B8E008AECFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531104221F578B8E008AECFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = virtusapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		531104231F578B8E008AECFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = virtusapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		531104251F578B8E008AECFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = virtusappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtusapp.app/virtusapp";
+			};
+			name = Debug;
+		};
+		531104261F578B8E008AECFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = virtusappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virtusapp.app/virtusapp";
+			};
+			name = Release;
+		};
+		531104281F578B8E008AECFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = virtusappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = virtusapp;
+			};
+			name = Debug;
+		};
+		531104291F578B8E008AECFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = virtusappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafael.virtusappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = virtusapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531103F41F578B8E008AECFB /* Build configuration list for PBXProject "virtusapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5311041F1F578B8E008AECFB /* Debug */,
+				531104201F578B8E008AECFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531104211F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531104221F578B8E008AECFB /* Debug */,
+				531104231F578B8E008AECFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		531104241F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531104251F578B8E008AECFB /* Debug */,
+				531104261F578B8E008AECFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		531104271F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531104281F578B8E008AECFB /* Debug */,
+				531104291F578B8E008AECFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531103F11F578B8E008AECFB /* Project object */;
+}
