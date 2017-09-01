@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531103FC1F578B8E008AECFB /* AppDelegate.swift */; };
-		531103FF1F578B8E008AECFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531103FE1F578B8E008AECFB /* ViewController.swift */; };
 		531104021F578B8E008AECFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531104001F578B8E008AECFB /* Main.storyboard */; };
 		531104041F578B8E008AECFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531104031F578B8E008AECFB /* Assets.xcassets */; };
 		531104071F578B8E008AECFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531104051F578B8E008AECFB /* LaunchScreen.storyboard */; };
 		531104121F578B8E008AECFB /* virtusappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104111F578B8E008AECFB /* virtusappTests.swift */; };
 		5311041D1F578B8E008AECFB /* virtusappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311041C1F578B8E008AECFB /* virtusappUITests.swift */; };
+		5311042E1F578CEF008AECFB /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311042D1F578CEF008AECFB /* HomePageViewController.swift */; };
+		531104301F578D1D008AECFB /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311042F1F578D1D008AECFB /* LocalViewController.swift */; };
+		531104321F578D4B008AECFB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104311F578D4B008AECFB /* NewsViewController.swift */; };
+		531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104331F578D69008AECFB /* JoinUsViewController.swift */; };
+		5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */; };
+		5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */; };
+		53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */; };
+		8D989A454A6B91FB458E1147 /* Pods_virtusapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B40B26DF6EC549A013B58C /* Pods_virtusapp.framework */; };
+		CA3AAAA2E22ED8185837EBC4 /* Pods_virtusappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5176109DB82CF432183565 /* Pods_virtusappUITests.framework */; };
+		DD5FFC339A857AAE466A102F /* Pods_virtusappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B715223805C8DD09494D7D1F /* Pods_virtusappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5176109DB82CF432183565 /* Pods_virtusappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virtusappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FE273EEBB880955B4576C7 /* Pods-virtusappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappTests/Pods-virtusappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C1906AF2CD39D441EC87486 /* Pods-virtusappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappUITests/Pods-virtusappUITests.release.xcconfig"; sourceTree = "<group>"; };
 		531103F91F578B8E008AECFB /* virtusapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtusapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531103FC1F578B8E008AECFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		531103FE1F578B8E008AECFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		531104011F578B8E008AECFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		531104031F578B8E008AECFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531104061F578B8E008AECFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		531104181F578B8E008AECFB /* virtusappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virtusappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5311041C1F578B8E008AECFB /* virtusappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtusappUITests.swift; sourceTree = "<group>"; };
 		5311041E1F578B8E008AECFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5311042D1F578CEF008AECFB /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5311042F1F578D1D008AECFB /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		531104311F578D4B008AECFB /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		531104331F578D69008AECFB /* JoinUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUsViewController.swift; sourceTree = "<group>"; };
+		5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProxy.swift; sourceTree = "<group>"; };
+		5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUrls.swift; sourceTree = "<group>"; };
+		53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		7BB316F4FB50293BD414AB79 /* Pods-virtusappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappUITests/Pods-virtusappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7470CCADB1090199B4264E /* Pods-virtusappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappTests/Pods-virtusappTests.release.xcconfig"; sourceTree = "<group>"; };
+		B715223805C8DD09494D7D1F /* Pods_virtusappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virtusappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C9427984498DB8743749ED /* Pods-virtusapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp.release.xcconfig"; sourceTree = "<group>"; };
+		E1AC62D00B998BEF6ED272B5 /* Pods-virtusapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B40B26DF6EC549A013B58C /* Pods_virtusapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virtusapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D989A454A6B91FB458E1147 /* Pods_virtusapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5FFC339A857AAE466A102F /* Pods_virtusappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3AAAA2E22ED8185837EBC4 /* Pods_virtusappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				531104101F578B8E008AECFB /* virtusappTests */,
 				5311041B1F578B8E008AECFB /* virtusappUITests */,
 				531103FA1F578B8E008AECFB /* Products */,
+				999812406FB8B33AAA6C1A71 /* Pods */,
+				967C0DF30DCB7CDBB402B6D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +126,11 @@
 		531103FB1F578B8E008AECFB /* virtusapp */ = {
 			isa = PBXGroup;
 			children = (
+				5338CBDF1F58F2A100AD2BF2 /* misc */,
+				5338CBDC1F58F29800AD2BF2 /* proxy */,
+				53F55E151F58DF4200A16CB5 /* geo */,
+				5311042A1F578BCB008AECFB /* controllers */,
 				531103FC1F578B8E008AECFB /* AppDelegate.swift */,
-				531103FE1F578B8E008AECFB /* ViewController.swift */,
 				531104001F578B8E008AECFB /* Main.storyboard */,
 				531104031F578B8E008AECFB /* Assets.xcassets */,
 				531104051F578B8E008AECFB /* LaunchScreen.storyboard */,
@@ -125,6 +157,64 @@
 			path = virtusappUITests;
 			sourceTree = "<group>";
 		};
+		5311042A1F578BCB008AECFB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5311042D1F578CEF008AECFB /* HomePageViewController.swift */,
+				5311042F1F578D1D008AECFB /* LocalViewController.swift */,
+				531104311F578D4B008AECFB /* NewsViewController.swift */,
+				531104331F578D69008AECFB /* JoinUsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5338CBDC1F58F29800AD2BF2 /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */,
+			);
+			path = proxy;
+			sourceTree = "<group>";
+		};
+		5338CBDF1F58F2A100AD2BF2 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		53F55E151F58DF4200A16CB5 /* geo */ = {
+			isa = PBXGroup;
+			children = (
+				53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */,
+			);
+			path = geo;
+			sourceTree = "<group>";
+		};
+		967C0DF30DCB7CDBB402B6D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2B40B26DF6EC549A013B58C /* Pods_virtusapp.framework */,
+				B715223805C8DD09494D7D1F /* Pods_virtusappTests.framework */,
+				0C5176109DB82CF432183565 /* Pods_virtusappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		999812406FB8B33AAA6C1A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AC62D00B998BEF6ED272B5 /* Pods-virtusapp.debug.xcconfig */,
+				C0C9427984498DB8743749ED /* Pods-virtusapp.release.xcconfig */,
+				25FE273EEBB880955B4576C7 /* Pods-virtusappTests.debug.xcconfig */,
+				AA7470CCADB1090199B4264E /* Pods-virtusappTests.release.xcconfig */,
+				7BB316F4FB50293BD414AB79 /* Pods-virtusappUITests.debug.xcconfig */,
+				4C1906AF2CD39D441EC87486 /* Pods-virtusappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531104211F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusapp" */;
 			buildPhases = (
+				1966BB605E7861765518114E /* [CP] Check Pods Manifest.lock */,
 				531103F51F578B8E008AECFB /* Sources */,
 				531103F61F578B8E008AECFB /* Frameworks */,
 				531103F71F578B8E008AECFB /* Resources */,
+				D438A78B21B9EE2FA121D379 /* [CP] Embed Pods Frameworks */,
+				656CCF8FBE3CF21B89C07DEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531104241F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappTests" */;
 			buildPhases = (
+				8D420B4536645C3B4E607D2E /* [CP] Check Pods Manifest.lock */,
 				531104091F578B8E008AECFB /* Sources */,
 				5311040A1F578B8E008AECFB /* Frameworks */,
 				5311040B1F578B8E008AECFB /* Resources */,
+				E8D54108F6B50B03F0859567 /* [CP] Embed Pods Frameworks */,
+				7DFB01D99E7D3E37FAC0ECBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 531104271F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappUITests" */;
 			buildPhases = (
+				0C2067969EAC27E758FE73CA /* [CP] Check Pods Manifest.lock */,
 				531104141F578B8E008AECFB /* Sources */,
 				531104151F578B8E008AECFB /* Frameworks */,
 				531104161F578B8E008AECFB /* Resources */,
+				826B889C1D86A885977CB144 /* [CP] Embed Pods Frameworks */,
+				03939BB09087FF4D6886AEF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +353,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03939BB09087FF4D6886AEF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusappUITests/Pods-virtusappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2067969EAC27E758FE73CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virtusappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1966BB605E7861765518114E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virtusapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656CCF8FBE3CF21B89C07DEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DFB01D99E7D3E37FAC0ECBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusappTests/Pods-virtusappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826B889C1D86A885977CB144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusappUITests/Pods-virtusappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D420B4536645C3B4E607D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virtusappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D438A78B21B9EE2FA121D379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D54108F6B50B03F0859567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-virtusappTests/Pods-virtusappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		531103F51F578B8E008AECFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531103FF1F578B8E008AECFB /* ViewController.swift in Sources */,
 				531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */,
+				531104301F578D1D008AECFB /* LocalViewController.swift in Sources */,
+				531104321F578D4B008AECFB /* NewsViewController.swift in Sources */,
+				5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */,
+				531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */,
+				53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */,
+				5311042E1F578CEF008AECFB /* HomePageViewController.swift in Sources */,
+				5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +665,7 @@
 		};
 		531104221F578B8E008AECFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AC62D00B998BEF6ED272B5 /* Pods-virtusapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = virtusapp/Info.plist;
@@ -422,6 +678,7 @@
 		};
 		531104231F578B8E008AECFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C9427984498DB8743749ED /* Pods-virtusapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = virtusapp/Info.plist;
@@ -434,6 +691,7 @@
 		};
 		531104251F578B8E008AECFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FE273EEBB880955B4576C7 /* Pods-virtusappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +706,7 @@
 		};
 		531104261F578B8E008AECFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7470CCADB1090199B4264E /* Pods-virtusappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +721,7 @@
 		};
 		531104281F578B8E008AECFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB316F4FB50293BD414AB79 /* Pods-virtusappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = virtusappUITests/Info.plist;
@@ -475,6 +735,7 @@
 		};
 		531104291F578B8E008AECFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1906AF2CD39D441EC87486 /* Pods-virtusappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = virtusappUITests/Info.plist;
@@ -505,6 +766,7 @@
 				531104231F578B8E008AECFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		531104241F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +775,7 @@
 				531104261F578B8E008AECFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		531104271F578B8E008AECFB /* Build configuration list for PBXNativeTarget "virtusappUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +784,7 @@
 				531104291F578B8E008AECFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
