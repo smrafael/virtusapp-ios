@@ -11,18 +11,14 @@ import Alamofire
 
 struct EventProxy {
     
-    static func getEvents() {
+    static func getEvents(_ callback: @escaping (Array<Any>, Bool) -> Void) {
         Alamofire.request(WSUrls.events).responseJSON { response in
-            print("Request: \(String(describing: response.request))")   // original url request
-            print("Response: \(String(describing: response.response))") // http url response
-            print("Result: \(response.result)")                         // response serialization result
-            
-            if let json = response.result.value {
-                print("JSON: \(json)") // serialized json response
-            }
-            
-            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-                print("Data: \(utf8Text)") // original server data as UTF8 string
+            if (response.result.isSuccess) {
+                if let json = response.result.value {
+                    callback(json as! Array<Any>, true)
+                }
+            } else {
+                callback(Array<Any>(), false)
             }
         }
     }

@@ -19,6 +19,8 @@
 		531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104331F578D69008AECFB /* JoinUsViewController.swift */; };
 		5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */; };
 		5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */; };
+		53C5A1481F5A54360006EFF2 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */; };
+		53C5A14B1F5A562D0006EFF2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A14A1F5A562D0006EFF2 /* Event.swift */; };
 		53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */; };
 		8D989A454A6B91FB458E1147 /* Pods_virtusapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B40B26DF6EC549A013B58C /* Pods_virtusapp.framework */; };
 		CA3AAAA2E22ED8185837EBC4 /* Pods_virtusappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5176109DB82CF432183565 /* Pods_virtusappUITests.framework */; };
@@ -64,6 +66,8 @@
 		531104331F578D69008AECFB /* JoinUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUsViewController.swift; sourceTree = "<group>"; };
 		5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProxy.swift; sourceTree = "<group>"; };
 		5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUrls.swift; sourceTree = "<group>"; };
+		53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		53C5A14A1F5A562D0006EFF2 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 		7BB316F4FB50293BD414AB79 /* Pods-virtusappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappUITests/Pods-virtusappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7470CCADB1090199B4264E /* Pods-virtusappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virtusappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-virtusappTests/Pods-virtusappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		531103FB1F578B8E008AECFB /* virtusapp */ = {
 			isa = PBXGroup;
 			children = (
+				53C5A1491F5A561E0006EFF2 /* models */,
+				53C5A1461F5A541C0006EFF2 /* components */,
 				5338CBDF1F58F2A100AD2BF2 /* misc */,
 				5338CBDC1F58F29800AD2BF2 /* proxy */,
 				53F55E151F58DF4200A16CB5 /* geo */,
@@ -182,6 +188,22 @@
 				5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */,
 			);
 			path = misc;
+			sourceTree = "<group>";
+		};
+		53C5A1461F5A541C0006EFF2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		53C5A1491F5A561E0006EFF2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				53C5A14A1F5A562D0006EFF2 /* Event.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		53F55E151F58DF4200A16CB5 /* geo */ = {
@@ -512,9 +534,11 @@
 				531104301F578D1D008AECFB /* LocalViewController.swift in Sources */,
 				531104321F578D4B008AECFB /* NewsViewController.swift in Sources */,
 				5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */,
+				53C5A14B1F5A562D0006EFF2 /* Event.swift in Sources */,
 				531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */,
 				53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */,
 				5311042E1F578CEF008AECFB /* HomePageViewController.swift in Sources */,
+				53C5A1481F5A54360006EFF2 /* CardTableViewCell.swift in Sources */,
 				5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
