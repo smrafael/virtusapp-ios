@@ -26,6 +26,8 @@
 		53A7F92F1F5BC68900895CC1 /* JobProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F92E1F5BC68900895CC1 /* JobProxy.swift */; };
 		53A7F9311F5BC97500895CC1 /* JobDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */; };
 		53A7F9331F5BCA9000895CC1 /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */; };
+		53A7F9351F5BDD9500895CC1 /* CurriculumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A7F9341F5BDD9500895CC1 /* CurriculumViewController.xib */; };
+		53A7F9371F5BDFFF00895CC1 /* CurriculumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F9361F5BDFFF00895CC1 /* CurriculumViewController.swift */; };
 		53C5A1481F5A54360006EFF2 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */; };
 		53C5A14B1F5A562D0006EFF2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A14A1F5A562D0006EFF2 /* Event.swift */; };
 		53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */; };
@@ -80,6 +82,8 @@
 		53A7F92E1F5BC68900895CC1 /* JobProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobProxy.swift; sourceTree = "<group>"; };
 		53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailsViewController.xib; sourceTree = "<group>"; };
 		53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
+		53A7F9341F5BDD9500895CC1 /* CurriculumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurriculumViewController.xib; sourceTree = "<group>"; };
+		53A7F9361F5BDFFF00895CC1 /* CurriculumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculumViewController.swift; sourceTree = "<group>"; };
 		53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		53C5A14A1F5A562D0006EFF2 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 				531104331F578D69008AECFB /* JoinUsViewController.swift */,
 				53A7F9251F5BA71900895CC1 /* EventDetailsViewController.swift */,
 				53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */,
+				53A7F9361F5BDFFF00895CC1 /* CurriculumViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			children = (
 				53A7F9281F5BADCE00895CC1 /* EventDetailsViewController.xib */,
 				53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */,
+				53A7F9341F5BDD9500895CC1 /* CurriculumViewController.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -383,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				531104071F578B8E008AECFB /* LaunchScreen.storyboard in Resources */,
+				53A7F9351F5BDD9500895CC1 /* CurriculumViewController.xib in Resources */,
 				531104041F578B8E008AECFB /* Assets.xcassets in Resources */,
 				53A7F9311F5BC97500895CC1 /* JobDetailsViewController.xib in Resources */,
 				53A7F9291F5BADCE00895CC1 /* EventDetailsViewController.xib in Resources */,
@@ -566,6 +573,7 @@
 				531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */,
 				531104301F578D1D008AECFB /* LocalViewController.swift in Sources */,
 				53A7F92B1F5BB73D00895CC1 /* JsonParser.swift in Sources */,
+				53A7F9371F5BDFFF00895CC1 /* CurriculumViewController.swift in Sources */,
 				531104321F578D4B008AECFB /* NewsViewController.swift in Sources */,
 				53A7F9331F5BCA9000895CC1 /* JobDetailsViewController.swift in Sources */,
 				53A7F92F1F5BC68900895CC1 /* JobProxy.swift in Sources */,

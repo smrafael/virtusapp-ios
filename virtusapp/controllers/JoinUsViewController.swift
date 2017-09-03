@@ -24,6 +24,10 @@ class JoinUsViewController : UITableViewController {
                 print("Error on load events")
             }
         });
+        
+        let sendCurriculumButton = UIBarButtonItem(title: "Enviar currículo", style: UIBarButtonItemStyle.plain,
+                                            target: self, action: #selector(sendCurriculum))
+        navigationItem.rightBarButtonItem = sendCurriculumButton
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -50,6 +54,11 @@ class JoinUsViewController : UITableViewController {
         }
     }
     
-    
+    func sendCurriculum() {
+        if let navigationController = navigationController {
+            let curriculumViewController = CurriculumViewController()
+            navigationController.pushViewController(curriculumViewController, animated: true)
+        }
+    }
     
 }
