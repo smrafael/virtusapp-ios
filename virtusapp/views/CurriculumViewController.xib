@@ -11,6 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurriculumViewController" customModule="virtusapp" customModuleProvider="target">
             <connections>
+                <outlet property="areaTextField" destination="eNN-Zz-TGa" id="iwt-E3-mix"/>
+                <outlet property="emailTextField" destination="XmO-vY-gtg" id="VwC-GO-NIF"/>
+                <outlet property="experienceTextView" destination="gcm-br-hAh" id="lgx-ea-L9x"/>
+                <outlet property="nameTextField" destination="vre-MP-WQF" id="aFW-ph-MAt"/>
+                <outlet property="telephoneTextField" destination="uAs-RQ-12b" id="qCh-pq-INZ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="hJK-JV-VOP"/>
             </connections>
         </placeholder>
@@ -96,7 +101,6 @@
                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gcm-br-hAh">
                                     <rect key="frame" x="16" y="377" width="343" height="178"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 </textView>
