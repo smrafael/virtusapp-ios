@@ -38,6 +38,9 @@ class CurriculumViewController : UIViewController {
             !(email ?? "").isEmpty &&
             !(exp ?? "").isEmpty) {
             
+            let button = sender as! UIButton
+            button.isEnabled = false
+            
             let curriculum = Curriculum(name: name!, area: area!, phone: phone!, email: email!, experience: exp!)
             CurriculumProxy.createCurriculum(curriculum: curriculum, { success in
                 if (success) {
