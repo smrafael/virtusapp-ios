@@ -28,7 +28,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Local" id="h3f-XH-1j9"/>
+                    <tabBarItem key="tabBarItem" title="Local" image="map-marker" selectedImage="map-marker" id="h3f-XH-1j9"/>
                     <connections>
                         <outlet property="mapView" destination="8fy-3h-8Ci" id="WAg-TT-Y18"/>
                     </connections>
@@ -234,7 +234,7 @@
         <scene sceneID="6Ne-Jp-DR2">
             <objects>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Fzh-bJ-0hh" customClass="HomePageViewController" customModule="virtusapp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="1yg-xj-o6D"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home" id="1yg-xj-o6D"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vm0-ss-6fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -251,12 +251,26 @@
                     <view key="view" contentMode="scaleToFill" id="Chd-K4-ale">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.029831843470000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="virtus_perspective-a" translatesAutoresizingMaskIntoConstraints="NO" id="Zkt-CA-2Ey">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9r-24-w6H">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A sede do VIRTUS está localizada dentro do Centro de Inovação e Tecnologia Telmo Araújo (CITTA), um ambiente focado em ações de inovação e na interação com empresas condizente com a demanda por qualidade e profissionalismo dos seus clientes</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.37613995039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXr-pK-Dy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="679.375" y="-198.98833333333332"/>
+            <point key="canvasLocation" x="678.5" y="-199.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xG7-1D-tKu">
@@ -269,7 +283,21 @@
                     <view key="view" contentMode="scaleToFill" id="X8Y-8w-S7F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="virtus_perspective-b" translatesAutoresizingMaskIntoConstraints="NO" id="kHq-ch-xmI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxv-zU-lsR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">"Dentre as empresas parceiras que fazem parte do portfólio de projetos e produtos desenvolvidos pela equipe do VIRTUS, destacam-se SONY, LG, HUAWEI, ASUS, COMPAL, ENVISION, SAMSUNG, NOKIA, HP, JFL, DL, dentre várias outras."</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.37613995039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oeg-5N-Mey" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -287,7 +315,20 @@
                     <view key="view" contentMode="scaleToFill" id="C8T-bk-dXn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="virtus_perspective-c" translatesAutoresizingMaskIntoConstraints="NO" id="eIF-u6-Jhf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;A infraestrutura do VIRTUS conta com mais de 1000 metros quadrados de laboratórios com equipamentos de última geração&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJm-Pi-giO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.37613995039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3F-WO-Kqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -298,7 +339,7 @@
         <scene sceneID="XP7-rz-RXO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5mW-qW-DJv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Eventos" id="kqI-TU-0fH"/>
+                    <tabBarItem key="tabBarItem" title="Eventos" image="star-circle" selectedImage="star-circle" id="kqI-TU-0fH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="jst-Zg-TXN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -317,7 +358,7 @@
         <scene sceneID="c1S-q9-wcx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OS8-WT-qfP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Trabalhe Conosco" id="E9g-Br-EUu"/>
+                    <tabBarItem key="tabBarItem" title="Trabalhe Conosco" image="account-multiple" selectedImage="account-multiple" id="E9g-Br-EUu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="OvV-Ju-jgM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -333,6 +374,15 @@
             <point key="canvasLocation" x="844.5" y="646.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="account-multiple" width="36" height="36"/>
+        <image name="home" width="36" height="36"/>
+        <image name="map-marker" width="36" height="36"/>
+        <image name="star-circle" width="36" height="36"/>
+        <image name="virtus_perspective-a" width="1920" height="1365"/>
+        <image name="virtus_perspective-b" width="1920" height="1365"/>
+        <image name="virtus_perspective-c" width="696" height="696"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
