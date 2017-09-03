@@ -8,13 +8,17 @@
 
 import UIKit
 import Alamofire
+import SDWebImage
 
 class NewsViewController : UITableViewController {
+    
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     
     var events = Array<Event>()
     
     override func viewDidLoad() {
         EventProxy.getEvents({ (data, success) in
+            self.spinner.stopAnimating()
             if (success) {
                 self.events = Event.parse(json: data)
                 self.tableView.reloadData()
@@ -36,7 +40,21 @@ class NewsViewController : UITableViewController {
         cell.descriptionLabel?.text = event.description
         cell.descriptionLabel.sizeToFit()
         
+        if let imageUrl = event.imageUrl {
+            cell.cellImage?.sd_setImage(with: URL(string: imageUrl), placeholderImage: #imageLiteral(resourceName: "virtus_default_image"))
+        } else {
+            cell.cellImage?.image = #imageLiteral(resourceName: "virtus_default_image")
+        }
+        
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let navigationController = navigationController {
+            let event = events[indexPath.row]
+            let eventDetailsViewController = EventDetailsViewController(event: event)
+            navigationController.pushViewController(eventDetailsViewController, animated: true)
+        }
     }
     
 }

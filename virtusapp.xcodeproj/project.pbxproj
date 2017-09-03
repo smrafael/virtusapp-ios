@@ -19,6 +19,13 @@
 		531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531104331F578D69008AECFB /* JoinUsViewController.swift */; };
 		5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */; };
 		5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */; };
+		53A7F9261F5BA71900895CC1 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F9251F5BA71900895CC1 /* EventDetailsViewController.swift */; };
+		53A7F9291F5BADCE00895CC1 /* EventDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A7F9281F5BADCE00895CC1 /* EventDetailsViewController.xib */; };
+		53A7F92B1F5BB73D00895CC1 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F92A1F5BB73D00895CC1 /* JsonParser.swift */; };
+		53A7F92D1F5BC57D00895CC1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F92C1F5BC57D00895CC1 /* Job.swift */; };
+		53A7F92F1F5BC68900895CC1 /* JobProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F92E1F5BC68900895CC1 /* JobProxy.swift */; };
+		53A7F9311F5BC97500895CC1 /* JobDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */; };
+		53A7F9331F5BCA9000895CC1 /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */; };
 		53C5A1481F5A54360006EFF2 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */; };
 		53C5A14B1F5A562D0006EFF2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5A14A1F5A562D0006EFF2 /* Event.swift */; };
 		53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */; };
@@ -66,6 +73,13 @@
 		531104331F578D69008AECFB /* JoinUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUsViewController.swift; sourceTree = "<group>"; };
 		5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProxy.swift; sourceTree = "<group>"; };
 		5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUrls.swift; sourceTree = "<group>"; };
+		53A7F9251F5BA71900895CC1 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		53A7F9281F5BADCE00895CC1 /* EventDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventDetailsViewController.xib; sourceTree = "<group>"; };
+		53A7F92A1F5BB73D00895CC1 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		53A7F92C1F5BC57D00895CC1 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		53A7F92E1F5BC68900895CC1 /* JobProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobProxy.swift; sourceTree = "<group>"; };
+		53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailsViewController.xib; sourceTree = "<group>"; };
+		53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
 		53C5A1471F5A54360006EFF2 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		53C5A14A1F5A562D0006EFF2 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		53F55E161F58DF6000A16CB5 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
@@ -130,6 +144,7 @@
 		531103FB1F578B8E008AECFB /* virtusapp */ = {
 			isa = PBXGroup;
 			children = (
+				53A7F9271F5BADBD00895CC1 /* views */,
 				53C5A1491F5A561E0006EFF2 /* models */,
 				53C5A1461F5A541C0006EFF2 /* components */,
 				5338CBDF1F58F2A100AD2BF2 /* misc */,
@@ -170,6 +185,8 @@
 				5311042F1F578D1D008AECFB /* LocalViewController.swift */,
 				531104311F578D4B008AECFB /* NewsViewController.swift */,
 				531104331F578D69008AECFB /* JoinUsViewController.swift */,
+				53A7F9251F5BA71900895CC1 /* EventDetailsViewController.swift */,
+				53A7F9321F5BCA9000895CC1 /* JobDetailsViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -178,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				5338CBDD1F58F29800AD2BF2 /* EventProxy.swift */,
+				53A7F92E1F5BC68900895CC1 /* JobProxy.swift */,
 			);
 			path = proxy;
 			sourceTree = "<group>";
@@ -186,8 +204,18 @@
 			isa = PBXGroup;
 			children = (
 				5338CBE01F58F2A100AD2BF2 /* WSUrls.swift */,
+				53A7F92A1F5BB73D00895CC1 /* JsonParser.swift */,
 			);
 			path = misc;
+			sourceTree = "<group>";
+		};
+		53A7F9271F5BADBD00895CC1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				53A7F9281F5BADCE00895CC1 /* EventDetailsViewController.xib */,
+				53A7F9301F5BC97500895CC1 /* JobDetailsViewController.xib */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		53C5A1461F5A541C0006EFF2 /* components */ = {
@@ -202,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				53C5A14A1F5A562D0006EFF2 /* Event.swift */,
+				53A7F92C1F5BC57D00895CC1 /* Job.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -355,6 +384,8 @@
 			files = (
 				531104071F578B8E008AECFB /* LaunchScreen.storyboard in Resources */,
 				531104041F578B8E008AECFB /* Assets.xcassets in Resources */,
+				53A7F9311F5BC97500895CC1 /* JobDetailsViewController.xib in Resources */,
+				53A7F9291F5BADCE00895CC1 /* EventDetailsViewController.xib in Resources */,
 				531104021F578B8E008AECFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,10 +529,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-virtusapp/Pods-virtusapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -532,13 +565,18 @@
 			files = (
 				531103FD1F578B8E008AECFB /* AppDelegate.swift in Sources */,
 				531104301F578D1D008AECFB /* LocalViewController.swift in Sources */,
+				53A7F92B1F5BB73D00895CC1 /* JsonParser.swift in Sources */,
 				531104321F578D4B008AECFB /* NewsViewController.swift in Sources */,
+				53A7F9331F5BCA9000895CC1 /* JobDetailsViewController.swift in Sources */,
+				53A7F92F1F5BC68900895CC1 /* JobProxy.swift in Sources */,
+				53A7F92D1F5BC57D00895CC1 /* Job.swift in Sources */,
 				5338CBDE1F58F29800AD2BF2 /* EventProxy.swift in Sources */,
 				53C5A14B1F5A562D0006EFF2 /* Event.swift in Sources */,
 				531104341F578D69008AECFB /* JoinUsViewController.swift in Sources */,
 				53F55E171F58DF6000A16CB5 /* PinAnnotation.swift in Sources */,
 				5311042E1F578CEF008AECFB /* HomePageViewController.swift in Sources */,
 				53C5A1481F5A54360006EFF2 /* CardTableViewCell.swift in Sources */,
+				53A7F9261F5BA71900895CC1 /* EventDetailsViewController.swift in Sources */,
 				5338CBE11F58F2A100AD2BF2 /* WSUrls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

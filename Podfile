@@ -7,6 +7,7 @@ target 'virtusapp' do
 
   # Pods for virtusapp
   pod 'Alamofire', '~> 4.4'
+  pod 'SDWebImage', '~> 4.0'
   
   target 'virtusappTests' do
     inherit! :search_paths

@@ -12,17 +12,26 @@ class Event {
     let title: String
     let description: String
     let date: Date
+    let imageUrl: String?
     
-    init(title: String, description: String, date: Date) {
+    init(title: String, description: String, date: Date, imageUrl: String?) {
         self.title = title
         self.description = description
         self.date = date
+        self.imageUrl = imageUrl
     }
     
     init(json: NSDictionary) {
         self.title = json.value(forKey: "title") as! String
         self.description = json.value(forKey: "description") as! String
-        self.date = Date()
+        self.date =  JsonParser.parse(toDate: json.value(forKey: "date")!)!
+        
+        let imageUrl = json.value(forKey: "imageUrl")
+        if imageUrl is NSString {
+            self.imageUrl = imageUrl as! String?
+        } else {
+            self.imageUrl = nil
+        }
     }
     
     static func parse(json: Array<Any>) -> Array<Event> {
