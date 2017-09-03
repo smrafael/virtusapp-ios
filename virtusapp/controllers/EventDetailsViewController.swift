@@ -37,7 +37,6 @@ class EventDetailsViewController : UIViewController {
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd/MM/yyyy"
             self.dataLabel.text = dateFormatter.string(from: event.date)
-            print(event.date)
             
             if let imageUrl = event.imageUrl {
                 self.imageView.sd_setImage(with: URL(string: imageUrl), placeholderImage: #imageLiteral(resourceName: "virtus_default_image"))

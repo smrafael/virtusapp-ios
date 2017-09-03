@@ -13,4 +13,5 @@ struct WSUrls {
     
     static let events = "\(baseUrl)/events"
     static let jobs = "\(baseUrl)/jobs"
+    static let curriculum = "\(baseUrl)/curriculum"
 }

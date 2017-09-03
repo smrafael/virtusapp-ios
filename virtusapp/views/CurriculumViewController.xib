@@ -41,6 +41,9 @@
                                     <rect key="frame" x="166" y="593" width="42" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Enviar"/>
+                                    <connections>
+                                        <action selector="create:" destination="-1" eventType="touchUpInside" id="3Cq-nM-FhE"/>
+                                    </connections>
                                 </button>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-vY-gtg">
                                     <rect key="frame" x="16" y="304" width="343" height="30"/>

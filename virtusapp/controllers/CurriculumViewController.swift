@@ -18,10 +18,39 @@ class CurriculumViewController : UIViewController {
     
     
     override func viewDidLoad() {
+        // Setting TextView style
         let expTextViewColor = UIColor(colorLiteralRed:204.0/255.0, green:204.0/255.0, blue:204.0/255.0, alpha:0.7)
-        
         experienceTextView.layer.borderColor = expTextViewColor.cgColor
         experienceTextView.layer.borderWidth = 1.0
         experienceTextView.layer.cornerRadius = 5.0
+    }
+    
+    @IBAction func create(_ sender: Any) {
+        let name = nameTextField.text
+        let area = areaTextField.text
+        let phone = telephoneTextField.text
+        let email = emailTextField.text
+        let exp = experienceTextView.text
+        
+        if (!(name ?? "").isEmpty &&
+            !(area ?? "").isEmpty &&
+            !(phone ?? "").isEmpty &&
+            !(email ?? "").isEmpty &&
+            !(exp ?? "").isEmpty) {
+            
+            let curriculum = Curriculum(name: name!, area: area!, phone: phone!, email: email!, experience: exp!)
+            CurriculumProxy.createCurriculum(curriculum: curriculum, { success in
+                if (success) {
+                    func action(uiAlertAction: UIAlertAction) {
+                        if let navigationController = self.navigationController {
+                            navigationController.popViewController(animated: true)
+                        }
+                    }
+                    Info(controller: self).show(title: "Sucesso!", message: "Seu currículo foi cadastrado com sucesso", handler: action)
+                } else {
+                    Alert(controller: self).show(message: "Não foi possível cadastrar o seu currículo")
+                }
+            })
+        }
     }
 }
